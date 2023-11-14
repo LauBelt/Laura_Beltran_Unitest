@@ -61,6 +61,10 @@ public class UnitTestLaura {
             case "17":
                 Operations.RandomNumber();
                 break;
+                
+            case "18":
+                System.out.println("Commit in a new branch 2");
+                break;
             default:
                 throw new AssertionError();
         }
